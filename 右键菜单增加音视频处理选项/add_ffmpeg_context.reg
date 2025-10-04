@@ -1,0 +1,62 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\CompressVideo]
+@="一键压缩mp4"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\CompressVideo\command]
+@="\"D:\\tools\\compress_mp4.bat\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\CompressVideo]
+@="一键压缩mp4"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\CompressVideo\command]
+@="\"D:\\tools\\compress_mp4.bat\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\GetAudio]
+@="提取音频到flac格式"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\GetAudio\command]
+@="\"D:\\tools\\get_audio.bat\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\GetAudio]
+@="提取音频到flac格式"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\GetAudio\command]
+@="\"D:\\tools\\get_audio.bat\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\GetAudio]
+@="提取音频到flac格式"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\GetAudio\command]
+@="\"D:\\tools\\get_audio.bat\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\GetAudio]
+@="提取音频到flac格式"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\GetAudio\command]
+@="\"D:\\tools\\get_audio.bat\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\GetAudioMp3]
+@="提取音频到mp3格式"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\GetAudioMp3\command]
+@="\"D:\\tools\\get_audiomp3.bat\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\GetAudioMp3]
+@="提取音频到mp3格式"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\GetAudioMp3\command]
+@="\"D:\\tools\\get_audiomp3.bat\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\GetAudioMp3]
+@="提取音频到mp3格式"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\GetAudioMp3\command]
+@="\"D:\\tools\\get_audiomp3.bat\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\GetAudioMp3]
+@="提取音频到mp3格式"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\GetAudioMp3\command]
+@="\"D:\\tools\\get_audiomp3.bat\" \"%1\""
