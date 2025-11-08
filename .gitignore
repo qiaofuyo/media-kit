@@ -1,2 +1,41 @@
+# 依赖目录
 node_modules/
+dist/
+build/
+
+# 编译输出
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.exe
+
+# 日志文件
 *.log
+logs/
+npm-debug.log*
+
+# IDE配置
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*~
+
+# 项目特定文件
+VideoMuxer_App/
